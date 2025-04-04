@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Raleway';
+}
+/*L'en-tête*/
+header{
+    margin: 20px 0;
+}
+.entete{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    padding-top: 34px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+nav a:hover{
+    border-top: 5px solid #0065FC;
+    color: #0065FC;
+}
+/*Corps*/
+/*Section 1: Recherches*/
+main{
+    width: 93%;
+    margin: auto;
+}
+h1{
+    margin-bottom: 10px;
+}
+.recherche{
+    margin-top: 15px;
+    display: flex;
+    height: 35px;
+    margin-bottom: 30px;
+}
+.icone{
+    background-color: #F2F2F2;
+    height: 35px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    border-radius: 10px 0 0 10px;
+}
+input{
+    padding-left: 15px;
+    border: solid 2px #F2F2F2;
+    color: black;
+    font-weight: bold;
+}
+.recherche button{
+    padding: 0 15px;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+    margin-left: -2px;
+    cursor: pointer;
+}
+.recherche button:hover{
+    color: black;
+}
+/*Section 2: Filtres*/
+.filtres{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+h2{
+    font-size: 20px;
+}
+.filtre{
+    display: flex;
+    gap: 10px;
+    border: 2px solid #F2F2F2;
+    border-radius: 15px;
+    padding: 0 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.filtre:hover{
+    background-color: #0065FC;
+    color: white;
+}
+.filtres div i{
+    background-color: #DEEBFF;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: -12px;
+    color: #0065FC;
+}
+/*Section 3: info*/
+.info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.info i{
+    height: 20px;
+    width: 20px;
+    border: 2px solid #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #0065FC;
+}
+/*section 4: Hebergements*/
+.conteneur{
+    display: flex;
+    gap: 30px;
+}
+.hebergements{
+    
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
+    gap: 50px;
+    width: 80%;
+    height: 450px;
+    border-radius: 15px;
+    padding: 20px;
+}
+.heheberg{
+    background-color: white;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+.hericon{
+    color: #F2F2F2;
+}
+.element{
+    font-size: 11px;
+    cursor: pointer;
+}
+.hebtitre{
+    font-weight: bold;
+}
+.heheberg img{
+    width: 300px;
+    height: 120px;
+    margin-top: 5px;
+    border-radius: 15px 15px 0 0;
+}
+h3{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.hstar{
+    color: #0065FC;
+}
+.titreheb{
+    display: flex;
+}
+.entier{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.heheberg:hover{
+    background-color: #DEEBFF;
+}
+.affich{
+    font-weight: bold;
+    padding: 20px;
+}
+.affich a{
+    text-decoration: none;
+    color: black;
+}
+.affich a:hover{
+    text-decoration: underline;
+    color: #0065FC;
+}
+/*Aside*/
+.droite{
+    background-color: #F2F2F2;
+    width: 20%;
+    height: 450px;
+    border-radius: 15px;
+    padding: 20px;
+}
+.lesplus{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.populaire{
+    background-color: white;
+    padding: 14px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.populaire:hover{
+    background-color: #DEEBFF;
+}
+.at{
+    display: flex;
+    gap: 5px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.col img, p{
+    margin: 5px;
+}
+.at img{
+    border-radius: 10px 0 0 10px;
+    width: 40%;
+}
+.star{
+    margin-left: 5px;
+    margin-top: 20px;
+    color: #0065FC;
+}
+.pp{
+    font-weight: normal;
+}
+.etoilee{
+    color: #F2F2F2;
+}
+/*Section 5: Activites à Marseille*/
+h5 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.activites {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.activite {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.activite:hover {
+    transform: scale(1.05);
+}
+.activite img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+.activite p {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* Premiere et troisieme colonne plus grand */
+.activite:nth-child(1) {
+    grid-row: span 2;
+}
+.activite:nth-child(3) {
+    grid-row: span 2;
+}
+/*Les images prennent toute la largeur des longues colonnes*/
+.activite:nth-child(1) img,
+.activite:nth-child(3) img {
+    object-fit: cover;
+    height: 90%;
+    width: 100%;
+    display: block;
+}
+.marseille{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+/*Footer*/
+footer{
+    background-color: #F2F2F2;
+}
+.pieds{
+    width: 93%;
+    margin: auto;
+    display: flex;
+    gap: 250px;
+    padding: 30px;
+}
+.pieds ul{
+    list-style-type: none;
+}
+.pieds a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+.pieds li, h6{
+    margin: 20px;
+}
+h6{
+    font-size: 15px;
+}
+.pieds a:hover{
+    color: #0065FC;
+    font-weight: bold;
+}
+.pieds a:focus{
+    text-decoration: underline;
+    color: #0065FC;
+}
